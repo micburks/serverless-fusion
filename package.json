@@ -1,0 +1,37 @@
+{
+  "name": "serverless-fusion",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "fusion-cli": "^2.2.0",
+    "fusion-core": "^2.0.2",
+    "fusion-plugin-react-helmet-async": "^2.0.4",
+    "fusion-plugin-react-router": "^2.0.4",
+    "fusion-plugin-styletron-react": "^3.0.5",
+    "fusion-plugin-universal-events": "^2.0.3",
+    "fusion-react": "^3.1.1",
+    "fusion-tokens": "^2.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styletron-react": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "fusion dev",
+    "lint": "eslint .",
+    "test": "fusion test",
+    "build": "fusion build --experimentalServerless",
+    "build-production": "fusion build --production",
+    "start": "fusion start"
+  },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-fusion": "^5.0.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
